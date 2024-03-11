@@ -25,6 +25,13 @@ import UpdatingObjectsInArray from './components/UpdatingArrayInState/UpdatingOb
 import UpdatingSameStateMultiple from './components/UpdatingSameStateMultiple'
 import TreatObjectASReadOnly from './components/updatingObjectState/TreatObjectASReadOnly'
 import UseContext from './components/updatingObjectState/UseContext';
+import ProfileEditor from './components/ReactingToInputWithState/ProfileEditor'
+import AvoidContradicationInState from './components/ReactingToInputWithState/AvoidContradicationInState'
+import AvoidDuplicationState from './components/ReactingToInputWithState/AvoidDuplicationState'
+import AvoidDeeplyNestedState from './components/ReactingToInputWithState/AvoidDeeplyNestedState'
+import SharingStateBettweenComponents from './components/SharingStateBetweenComponents/SharingStateBettweenComponents'
+import SyncedInputs from './components/SharingStateBetweenComponents/SyncedInputs'
+import FilteringAList from './components/SharingStateBetweenComponents/FilteringAList'
 
 function App() {
 
@@ -55,7 +62,16 @@ function App() {
       {/* <UpdatingObjectsInArray /> */}
       {/* <Challenge1 /> */}
       {/* <Challenge2 /> */}
-      <Challenge3 />
+      {/* <Challenge3 /> */}
+      {/* <Challenge1 /> */}
+      {/* <ProfileEditor /> */}
+      {/* <AvoidContradicationInState /> */}
+      {/* <AvoidDuplicationState /> */}
+      {/* <AvoidDeeplyNestedState /> */}
+      <SharingStateBettweenComponents />
+      <SyncedInputs />
+      <hr />
+      <FilteringAList />
 
       
     </>
