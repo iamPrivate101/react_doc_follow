@@ -32,6 +32,16 @@ import AvoidDeeplyNestedState from './components/ReactingToInputWithState/AvoidD
 import SharingStateBettweenComponents from './components/SharingStateBetweenComponents/SharingStateBettweenComponents'
 import SyncedInputs from './components/SharingStateBetweenComponents/SyncedInputs'
 import FilteringAList from './components/SharingStateBetweenComponents/FilteringAList'
+import StateIsTiedToPositionInRenderTree from './components/PreservingAndResetingState/StateIsTiedToPositionInRenderTree'
+import DifferentComponentAtSameREsetPositionState from './components/PreservingAndResetingState/DifferentComponentAtSameREsetPositionState'
+import ResetingStateAtSamePosition from './components/PreservingAndResetingState/ResetingStateAtSamePosition'
+import RenderingComponentDifferentState from './components/PreservingAndResetingState/RenderingComponentDifferentState'
+import ResetingAFormWithKey from './components/PreservingAndResetingState/ResetingAFormWithKey'
+import FixDisaperingState from './components/PreservingAndResetingState/FixDisaperingState'
+import SwapTwoFormFields from './components/PreservingAndResetingState/SwapTwoFormFields'
+import ResetDetail from './components/PreservingAndResetingState/ResetDetail'
+import ClearAnImageWhileLoading from './components/PreservingAndResetingState/ClearAnImageWhileLoading'
+import FixMisplacedStateInList from './components/PreservingAndResetingState/FixMisplacedStateInList'
 
 function App() {
 
@@ -68,10 +78,22 @@ function App() {
       {/* <AvoidContradicationInState /> */}
       {/* <AvoidDuplicationState /> */}
       {/* <AvoidDeeplyNestedState /> */}
-      <SharingStateBettweenComponents />
-      <SyncedInputs />
+      {/* <SharingStateBettweenComponents /> */}
+      {/* <SyncedInputs /> */}
+      {/* <hr /> */}
+      {/* <FilteringAList /> */}
+      {/* <StateIsTiedToPositionInRenderTree /> */}
+      {/* <DifferentComponentAtSameREsetPositionState /> */}
+      {/* <ResetingStateAtSamePosition /> */}
+      {/* <RenderingComponentDifferentState /> */}
+      {/* <ResetingAFormWithKey /> */}
+      {/* <FixDisaperingState /> */}
+      <SwapTwoFormFields />
+      <ResetDetail /> 
       <hr />
-      <FilteringAList />
+      <ClearAnImageWhileLoading /> 
+      <hr />
+      <FixMisplacedStateInList />
 
       
     </>
