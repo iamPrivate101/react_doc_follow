@@ -42,6 +42,14 @@ import SwapTwoFormFields from './components/PreservingAndResetingState/SwapTwoFo
 import ResetDetail from './components/PreservingAndResetingState/ResetDetail'
 import ClearAnImageWhileLoading from './components/PreservingAndResetingState/ClearAnImageWhileLoading'
 import FixMisplacedStateInList from './components/PreservingAndResetingState/FixMisplacedStateInList'
+import UseState from './components/PreservingAndResetingState/Hooks/UseState/UseState'
+import FormObject from './components/PreservingAndResetingState/Hooks/UseState/FormObject'
+import FormNestedObject from './components/PreservingAndResetingState/Hooks/UseState/FormNestedObject'
+import ListArray from './components/PreservingAndResetingState/Hooks/UseState/ListArray'
+import ResetingStateWithKey from './components/PreservingAndResetingState/Hooks/UseState/ResetingStateWithKey'
+import StoringInformationFromPreviousRender from './components/PreservingAndResetingState/Hooks/UseState/StoringInformationFromPreviousRender'
+import UseEffect from './components/PreservingAndResetingState/Hooks/useEffect/UseEffect'
+import ConnectingToChatServer from './components/PreservingAndResetingState/Hooks/useEffect/ConnectingToChatServer'
 
 function App() {
 
@@ -88,12 +96,22 @@ function App() {
       {/* <RenderingComponentDifferentState /> */}
       {/* <ResetingAFormWithKey /> */}
       {/* <FixDisaperingState /> */}
-      <SwapTwoFormFields />
+      {/* <SwapTwoFormFields />
       <ResetDetail /> 
       <hr />
       <ClearAnImageWhileLoading /> 
       <hr />
-      <FixMisplacedStateInList />
+      <FixMisplacedStateInList /> */}
+
+      {/* useState */}
+      {/* <UseState /> */}
+      {/* <FormObject />  */}
+      {/* <FormNestedObject /> */}
+      {/* <ListArray /> */}
+      {/* <ResetingStateWithKey /> */}
+      {/* <StoringInformationFromPreviousRender /> */}
+      {/* <UseEffect /> */}
+      <ConnectingToChatServer />
 
       
     </>
